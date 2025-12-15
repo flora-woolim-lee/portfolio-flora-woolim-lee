@@ -1,11 +1,6 @@
 /* product 기본제공 스타일 */ 
 .container {max-width: 960px:}
 
-.icon-link > .bi {
-  width: .75em;
-  height: .75em;
-}
-
 /* Custom translucent site header 
 사용자가 만든(커스텀) 반투명 사이트 헤더*/
 
@@ -67,3 +62,26 @@
   }
 }
 /* product 기본제공 스타일 끝 */ 
+
+/* 메뉴 한/영 호버 */
+ /* 기본 상태: 영어만 보이게 */
+.lang-dropdown .ko {
+  display: none;
+}
+ /* hover 시 한/영 전환 */
+.lang-dropdown:hover .en {
+  display: none;
+}
+.lang-dropdown:hover .ko {
+  display: inline;
+}
+ /* hover 시 드롭다운 열기 */
+.lang-dropdown:hover .dropdown-menu {
+  display: block;
+  margin-top: 0; /* Bootstrap 기본 보정 */
+}
+/* 데비콘 아이콘 이미지  */
+.fw-bold img {
+  width: 30px;
+  height: 30px;
+}
