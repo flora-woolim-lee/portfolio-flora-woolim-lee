@@ -61,6 +61,8 @@
     flex: 1;
   }
 }
+
+
 /* product 기본제공 스타일 끝 */ 
 
 /* 메뉴 한/영 호버 */
@@ -86,6 +88,12 @@
   width: 30px;
   height: 30px;
 }
+
+.px-4 {
+    padding-right: 1rem !important;
+    padding-left: 1rem !important;
+}
+
 
 .p-5 .text-body-emphasis img {
   width: 150px;
