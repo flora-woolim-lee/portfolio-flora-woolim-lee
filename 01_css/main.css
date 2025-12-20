@@ -1,5 +1,5 @@
-/* product 기본제공 스타일 */ 
-.container {max-width: 960px:}
+/* product(main) 기본제공 스타일 */ 
+.container {max-width: 960px;}
 
 /* Custom translucent site header 
 사용자가 만든(커스텀) 반투명 사이트 헤더*/
@@ -80,8 +80,14 @@
   display: block;
   margin-top: 0; /* Bootstrap 기본 보정 */
 }
-/* 데비콘 아이콘 이미지  */
+/* Skills & Tools 
+데비콘 아이콘 이미지  */
 .fw-bold img {
   width: 30px;
   height: 30px;
+}
+
+.p-5 .text-body-emphasis img {
+  width: 150px;
+  height: 170px;
 }
