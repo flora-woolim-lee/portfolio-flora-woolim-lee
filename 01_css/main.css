@@ -18,9 +18,6 @@
   text-decoration: none;
 }
 
-/* Dummy devices (replace them with your own or something else entirely!)
- 이 장치들은 예시니까 너희가 실제로 쓰는 장치들로 바꾸거나, 아예 다른 걸 넣어도 돼!” */
-
 .product-device {
   position: absolute;
   right: 10%;
@@ -50,23 +47,16 @@
   left: 5%;
   background-color: #e5e5e5;
 }
-
 /* Extra utilities 추가 유틸리티*/
-
-.flex-equal > * {
-  flex: 1;
-}
+.flex-equal > * { flex: 1; }
 @media (min-width: 768px) {
   .flex-md-equal > * {
     flex: 1;
   }
 }
-
-
 /* product 기본제공 스타일 끝 */ 
 
-/* 메뉴 한/영 호버 */
- /* 기본 상태: 영어만 보이게 */
+/* 메뉴 한/영 호버 */ /* 기본 상태: 영어만 보이게 */
 .lang-dropdown .ko {
   display: none;
 }
@@ -88,14 +78,24 @@
   width: 30px;
   height: 30px;
 }
-
+/* 이력서, 포트폴리오 버튼 */
 .px-4 {
     padding-right: 1rem !important;
     padding-left: 1rem !important;
 }
-
-
+/* 증명사진 이미지 */
 .p-5 .text-body-emphasis img {
   width: 150px;
   height: 170px;
 }
+/* 앨범 이미지 중앙정령 */
+.bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+}
+      
+      
+      
