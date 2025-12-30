@@ -14,29 +14,25 @@
 </head>
 <body>
     <div class="wrap">
-    <header id="header">
-        <div class="inner">
-         <h1>
-            <a href="#!"><img src="img/celimeax_logo.png" alt="셀리맥스 로고"></a>
-            <a href="#!"> <img src="img/icon/menu_icon.png" alt="버거메뉴"></a>
-            <input type="text" placehold="검색">
-         </h1>
-         <ul>
-            <li><a href="#">로그인</a></li>
-            <li>/</li>
-            <li><a href="#">회원가입</a></li>
-         </ul>
-         <ul>
-            <li><a href="#">마이페이지</a></li>
-         </ul>
-         <ul>
-            <li><a href="#">장바구니</a></li>
-         </ul>
-        </div>
-    </header>
+        <header id="header">
+            <div class="inner">
+                <h1 class="logo" data-name="메인로고">
+                    <img src="img/celimeax_logo.png" alt="셀리맥스 로고">
+                    <img src="img/icon/menu_icon.png" alt="로고|검색창 구분 이미지">
+                    <input type="text" placeholder="검색">
+                </h1>
+                <ul class="user-menu" data-name="사용자-메뉴">
+                    <li><a href="#">로그인</a></li>
+                    <li><a href="#">회원가입</a></li>
+                    <li><a href="#">마이페이지</a></li>
+                    <li><a href="#">장바구니</a></li>
+                </ul>
+            </div>
+        </header>
     </div>
-    <div class="mene">
-        <ul class="gnb">
+    <!-- 메뉴(네비) -->
+      <div class="main-menu" data-name="메인 메뉴">
+        <ul class="menu-bar" data-name="메뉴 바">
             <li>
                 <a href="#!">전체</a>
             </li>
@@ -44,25 +40,24 @@
                 <a href="#">제품유형</a>
                 <ul>
                     <li><a href="#">패드</a></li>
-                    <li><a href="#">스킨/토너/미스트</a></li>
-                    <li><a href="#">에센스/앰플/세럼</a></li>
-                    <li><a href="#">로션/크림/아이크림</a></li>
+                    <li><a href="#">스킨 / 토너 / 미스트</a></li>
+                    <li><a href="#">에센스 / 앰플 / 세럼</a></li>
+                    <li><a href="#">로션 / 크림 / 아이크림</a></li>
                     <li><a href="#">선크림</a></li>
                     <li><a href="#">클렌징</a></li>
-                    <li><a href="#">마스크/팩</a></li>
-                </ul>
-                
+                    <li><a href="#">마스크 / 팩</a></li>
+                </ul> 
             </li>
             <li>
                 <a href="#">피부고민</a>
                 <ul>
-                    <li><a href="#">진정/영양</a></li>
-                    <li><a href="#">각질/피부결</a></li>
-                    <li><a href="#">노폐물/피지/모공</a></li>
-                    <li><a href="#">수분/보습</a></li>
-                    <li><a href="#">민감/보습</a></li>
-                    <li><a href="#">미백/브라이트닝</a></li>
-                    <li><a href="#">헤어/바디/선케어</a></li>
+                    <li><a href="#">진정 / 영양</a></li>
+                    <li><a href="#">각질 / 피부결</a></li>
+                    <li><a href="#">노폐물 / 피지 / 모공</a></li>
+                    <li><a href="#">수분 / 보습</a></li>
+                    <li><a href="#">민감 / 보습</a></li>
+                    <li><a href="#">미백 / 브라이트닝</a></li>
+                    <li><a href="#">헤어 / 바디 / 선케어</a></li>
                 </ul>
             </li>
             <li>
@@ -77,6 +72,8 @@
             </li>
         </ul>
     </div>
+    <!-- 메뉴(네비) 끝 -->
+
     <div class="visual_area">
         <ul class="serve_main">
             <li class="serve_main2">

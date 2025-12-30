@@ -33,73 +33,60 @@
     display: flex;
     align-items: center;
  }
-.mene {
-    position: relative;
-    z-index: 1;
+/*  메인 메뉴 [기준점] */
+.main-menu .menu-bar { 
+    position: relative; 
 }
-.mene .gnb {
-    height: 80px;
-    line-height: 100px;
-    z-index: 9999;
-}
-.mene .gnb > ul {
+/* 기본 메인 메뉴 */
+.main-menu .menu-bar > ul {
     display: flex;
     justify-content: space-between;
 }
-.mene .gnb > ul > li {
-    position: relative;
+/* 드롭다운시 .menu-bar 나오게 */ 
+.main-menu .menu-bar li ul {
+    display: none;
 }
-.mene .gnb > ul > li > a {
+
+.main-menu .menu-bar > ul > li > a {
     display: block;
     padding: 0 32px;
     font-size: 21px;
     font-weight: bold;
-    
 }
-.mene .gnb > ul > li:hover > a {
+
+.main-menu .menu-bar > ul > li:hover > a {
     border-bottom: 3px solid #00a23e;
     color: #00a23e;
 }
-.mene .gnb > ul > li:hover > a {
-    border-bottom: 3px solid #00a23e;
-    color: #00a23e;
-}
-.mene .gnb li ul {
-    display: none;
-    /* position: absolute; */
-    /* width: 100%; */
-    /* box-shadow: 0 0 2px rgba(0, 0, 0, .1); */
-}
-.mene .gnb li a  {
+
+.main-menu .menu-bar li a  {
     display: block;
     line-height: 45px;
     text-align: center;
-    /* font-weight: 400px; */
     font-size: 15px;
-    /* background-color: #ffffff; */
     color: rgb(0, 0, 0);
     transition: all .3s;
     position: relative;
-    z-index: 100px;;
+    z-index: 100px;
 }
-.mene .gnb li li a:hover {
+.main-menu .menu-bar li li a:hover {
     color: #00ba3e;
 }
-.mene .gnb li:hover ul {
+.main-menu .menu-bar li:hover ul {
     display: block;
 }
-.mene .gnb {
+.main-menu .menu-bar {
     display: flex;
     justify-content: space-evenly;
     font-size: px;
     font-weight: bold;
-    /* margin-bottom: 1px; */
 }
-.logo .mene ul li a {
+.logo .main-menu ul li a {
     display: flex;
     justify-content: flex-start;
 }
-.util ul li {
+/* 사용자 메뉴 */
+.user-menu ul li {
     display: flex;
     justify-content: flex-end;
 }
